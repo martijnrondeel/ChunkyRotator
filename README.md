@@ -10,4 +10,4 @@ Here's an example of footage created with ChunkyRotator:
 Usage
 =
 
-Read the usage guide to see how to use the program.
+Read the usage guide to see how to use the program and ffmpeg to create the video.
