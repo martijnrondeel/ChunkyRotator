@@ -20,6 +20,11 @@ iteration = 0
 # use the OS specific path separator
 sep = os.sep
 
+# Stop program if ChunkyLauncher.jar does not exist
+if not os.path.isfile("ChunkyLauncher.jar"): 
+  print("ChunkyLauncher.jar could not be found. Put ChunkyLauncher.jar in the same folder as this program!")
+  raise SystemExit(0)
+
 # Create separate folder for all of the images
 imagepath = dir + sep + "ChunkyRotate-" + scene
 if not os.path.exists(imagepath): os.makedirs(imagepath)
